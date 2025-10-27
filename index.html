@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 600px;
+            background-color: purple;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .box1 {
+            width: 520px;
+            height: 580px;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .box2 {
+            width: 520px;
+            height: 580px;
+            background-image: url(image/purpledesign.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box3 {
+            width: 390px;
+            height: 580px;
+        }
+
+        h3 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .text1 {
+            font-size: 35px;
+            color: blueviolet;
+        }
+
+        .text2 {
+            font-size: 50px;
+            color: blueviolet;
+            margin-top: -10px;
+        }
+
+        input {
+            width: 380px;
+            height: 50px;
+            border-radius: px;
+              
+        }
+        
+        input[type=email]{
+            border-left: 6px solid rgb(207, 25, 168);
+            width: 377px;
+            height: 50px;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-right-width: 1px;
+        }
+        
+        input[type=checkbox]{
+            margin-top: 8px;
+            width: 15px;
+            height: 15px;
+           
+        }
+
+        button {
+            width: 110px;
+            height: 30px;
+            color: white;
+            background-color: rgb(207, 25, 168);
+            border: none;
+        }
+
+        button[type=send]{
+            width: 110px;
+            height: 30px;
+            color: blueviolet;
+            background-color: white;
+            border: 3px solid blueviolet;
+        }
+
+        .logobox {
+            width: 170px;
+            height: 50px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box1">
+            <div class="box3">
+                <h3>yourlogo</h3>
+                <div class="text1">HELLO,</div>
+                <div class="text2"><b>Welcome!</b></div>
+                 
+                    <form>
+                        <label for="email"></label><br>
+                        <input type="email" id="email" required placeholder="Email address">
+
+                        <label for="password"></label><br>
+                        <input type="password" id="password" required placeholder="Password">
+                    </form>
+
+                    <label>
+                      <input type="checkbox"> accept terms and condition
+                    </label><br><br>
+
+                    <button type="submit">Login</button>
+                    <button type="send">Sign up</button>
+      
+                    <div class="logobox">
+                        <h5>FOLLOW</h5>
+                        <img src="image\facebook.png" width="20px">
+                        <img src="image\twitter.png" width="20px">
+                        <img src="image\instagram.png" width="20px">
+                    </div>
+            </div>
+        </div>
+       <div class="box2"></div>
+    </div>
+
+</body>
+</html>
